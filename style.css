@@ -62,7 +62,7 @@ ul.no-style a {
 	width: 100%;
 	padding: 10px 20px 10px 20px;
 }
-.sidebar-list a::before {
+.sidebar-list a[page="animation"]::before {
 	content: "\f008";
 	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
