@@ -62,7 +62,17 @@ ul.no-style a {
 	width: 100%;
 	padding: 10px 20px 10px 20px;
 }
-.sidebar-list a[page="animation"]::before {
+.sidebar-list a[page="info"]::before {
+	content: "\f05a";
+	font-family: 'Font Awesome 6 Free';
+	font-weight: 900;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	pointer-events: none;
+	margin-right: 5px;
+}
+.sidebar-list a[page="anim"]::before {
 	content: "\f008";
 	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
