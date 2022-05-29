@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito&display=swap');
+:root {
+	font-family: 'Nunito', sans-serif;
+	--headerheight: 10vh;
+	--lightergrey: rgb(229,229,229);
+}
+* {
+	box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	height: var(--headerheight);
+	letter-spacing: 2px;
+	background-color:white;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid var(--lightergrey);
+	padding: 30px;
+}
+.nav-list {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+}
+ul.no-style {
+	list-style-type: none;
+}
+ul.no-style a {
+	text-decoration: none;
+	color: black;
+}
+.nav-list a {
+	text-decoration: none;
+	color: black;
+}
+.sidebar {
+	position:fixed;
+	width: 20vw;
+	height: 100vh;
+	top: var(--headerheight);
+}
+.sidebar-list {
+	border-right: 1px solid var(--lightergrey);
+	height: 100vh;
+	margin-block-start: 0;
+	padding-inline-start: 0;
+}
+.sidebar-list li {
+	display: flex;
+	border-bottom: 1px solid var(--lightergrey);
+	transition: background-color 0.2s;
+}
+.sidebar-list li:hover {
+	cursor: pointer;
+	background-color: var(--lightergrey);
+}
+.sidebar-list a {
+	width: 100%;
+	padding: 10px 20px 10px 20px;
+}
+.sidebar-list a::before {
+	content: "\f008";
+	font-family: 'Font Awesome 6 Free';
+	font-weight: 900;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	pointer-events: none;
+	margin-right: 5px;
+}
