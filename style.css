@@ -89,3 +89,6 @@ ul.no-style a {
 	width: calc( 100vw - var(--sidebarwidth) - var(--sidebarwidth) );
 	left: var(--sidebarwidth);
 }
+h5 {
+	margin: 5px;
+}
