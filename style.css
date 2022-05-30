@@ -40,6 +40,10 @@ ul.no-style a {
 .nav-list a {
 	text-decoration: none;
 	color: black;
+	border-radius: 5px;
+}
+.nav-list a:hover {
+	background-color: var(--lightergrey);
 }
 .sidebar {
 	position:fixed;
