@@ -106,3 +106,6 @@ h5 {
 	text-decoration: none;
 	color: black;
 }
+.menu-toggle:hover {
+	cursor:pointer;
+}
