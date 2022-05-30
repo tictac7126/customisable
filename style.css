@@ -46,6 +46,11 @@ ul.no-style a {
 	width: var(--sidebarwidth);
 	height: 100vh;
 	top: var(--headerheight);
+	overflow: hidden;
+	transition: width 0.3s;
+}
+.sidebar.hidden {
+	width: 0 !important;
 }
 .sidebar-list {
 	border-right: 1px solid var(--lightergrey);
