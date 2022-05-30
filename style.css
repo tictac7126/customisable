@@ -23,6 +23,7 @@ body {
 	padding: 30px;
 	position: fixed;
 	width: 100vw;
+	z-index: 999;
 }
 .nav-list {
 	display: flex;
