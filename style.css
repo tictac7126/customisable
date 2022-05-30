@@ -21,6 +21,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	border-bottom: 1px solid var(--lightergrey);
 	padding: 30px;
+	position: fixed;
+	width: 100vw;
 }
 .nav-list {
 	display: flex;
@@ -88,6 +90,7 @@ ul.no-style a {
 	position: absolute;
 	width: calc( 100vw - var(--sidebarwidth) - var(--sidebarwidth) );
 	left: var(--sidebarwidth);
+	top: var(--headerheight);
 }
 h5 {
 	margin: 5px;
