@@ -47,7 +47,8 @@ ul.no-style a {
 	height: 100vh;
 	top: var(--headerheight);
 	overflow: hidden;
-	transition: width 0.3s;
+	transition: width 0.5s;
+	white-space: nowrap;
 }
 .sidebar.hidden {
 	width: 0 !important;
